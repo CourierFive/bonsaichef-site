@@ -1,0 +1,90 @@
+/* BonsaiChef site — shared styles, mirroring the app's theme.js tokens.
+   "Zen garden": serif headings, hairlines over shadows, generous space. */
+
+:root {
+  --cream: #F4F1EA;
+  --card: #FFFFFF;
+  --near-black: #1B211C;
+  --dark-green: #2F4A34;
+  --green: #4E7A51;
+  --link-green: #3F6B4F;
+  --brown: #7A5A3A;
+  --hint: #6B4F33;
+  --low: #9A6B33;
+  --line: #E6E0D4;
+  --on-dark-muted: #CFDDD1;
+  --serif: 'Shippori Mincho', Georgia, 'Times New Roman', serif;
+  --system: system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--near-black);
+  font-family: var(--system);
+  line-height: 1.65;
+}
+
+a { color: var(--link-green); text-decoration: none; }
+a:hover { color: var(--dark-green); text-decoration: underline; }
+
+.wrap { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+/* Nav */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 26px 0;
+  border-bottom: 1px solid var(--line);
+}
+.wordmark {
+  font-family: var(--serif);
+  font-size: 22px;
+  color: var(--dark-green);
+  letter-spacing: 0.4px;
+}
+.wordmark:hover { color: var(--dark-green); text-decoration: none; }
+.nav-links { display: flex; gap: 32px; font-size: 14px; }
+
+/* Type */
+h1, h2, h3 { font-family: var(--serif); font-weight: 400; color: var(--dark-green); }
+.eyebrow {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  color: var(--brown);
+}
+.hint { font-size: 13px; color: var(--hint); }
+
+/* Cards on document pages */
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 24px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  border-top: 1px solid var(--line);
+  padding: 32px 0 48px;
+  font-size: 13px;
+  color: var(--hint);
+}
+
+/* Document pages (privacy, terms, support) */
+.doc { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+.doc h1 { font-size: 34px; line-height: 1.25; margin: 0 0 6px; }
+.doc h2 { font-size: 21px; line-height: 1.35; margin: 2.2rem 0 0.6rem; }
+.doc .updated { color: var(--brown); font-size: 14px; margin-top: 0; }
+.doc .card { margin-top: 1.5rem; }
+.doc .card h2 { margin-top: 0; }
