@@ -1,0 +1,27 @@
+<svg viewBox="138 139 746 746" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="BonsaiChef">
+  <!-- The app mark from BonsaiChef/assets/icon-source.svg, cropped to the
+       artwork so it still reads at 16px in a browser tab. Same paths, same
+       theme.js colors; only the viewBox differs. -->
+  <rect x="0" y="0" width="1024" height="1024" fill="#F4F1EA"/>
+  <g transform="translate(0,-92)">
+
+  <path d="M 522 812 C 520 740 514 682 498 622 C 486 576 494 508 516 448"
+        fill="none" stroke="#1B211C" stroke-width="46" stroke-linecap="round"/>
+  <path d="M 502 648 C 462 606 414 578 352 552"
+        fill="none" stroke="#1B211C" stroke-width="30" stroke-linecap="round"/>
+  <path d="M 506 596 C 560 574 634 562 700 556"
+        fill="none" stroke="#1B211C" stroke-width="26" stroke-linecap="round"/>
+  <path d="M 512 500 C 540 476 572 462 610 452"
+        fill="none" stroke="#1B211C" stroke-width="18" stroke-linecap="round"/>
+
+  <ellipse cx="330" cy="512" rx="152" ry="90" fill="#4E7A51"/>
+  <ellipse cx="706" cy="536" rx="138" ry="82" fill="#4E7A51"/>
+  <ellipse cx="430" cy="596" rx="86" ry="50" fill="#2F4A34"/>
+  <ellipse cx="648" cy="428" rx="96" ry="56" fill="#2F4A34"/>
+  <ellipse cx="504" cy="370" rx="168" ry="96" fill="#2F4A34"/>
+
+  <rect x="356" y="796" width="328" height="30" rx="12" fill="#7A5A3A"/>
+  <path d="M 382 826 L 658 826 L 626 916 L 414 916 Z" fill="#7A5A3A"/>
+  <rect x="466" y="916" width="108" height="18" rx="8" fill="#7A5A3A"/>
+  </g>
+</svg>
