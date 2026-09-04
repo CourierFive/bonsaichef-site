@@ -25,7 +25,7 @@
 </div>
 <main class="doc">
 <h1>Privacy Policy</h1>
-<p class="updated">Last updated: August 31, 2026</p>
+<p class="updated">Last updated: September 4, 2026</p>
 
 <p>BonsaiChef ("the app") is a cooking coach app operated by Ethan Coffin ("we", "us"). This policy explains what information the app handles and how. The short version: your food data lives on your phone, we don't sell data, and we don't show ads.</p>
 
@@ -38,12 +38,13 @@
   <li><strong>AI feature usage counts.</strong> We count how many AI recipe generations and photo scans your account uses each day to enforce daily limits. Counts reset daily.</li>
   <li><strong>Photos you submit to AI features.</strong> When you scan groceries, receipts, recipe pages, nutrition-facts labels, or a finished meal on the plate, the photo is sent over an encrypted connection to our server and forwarded to our AI provider (Anthropic) to analyze it. Photos are processed to answer your request, are not stored on our servers, and are not used to build advertising profiles. Avoid including people or sensitive documents in photos.</li>
   <li><strong>A shared food-lookup cache.</strong> When you type a meal description to look up its nutrition, we may keep that short sentence in a shared cache so the same lookup is faster next time. Cached entries carry no account identifier and cannot be linked to a person, are capped at 120 characters, and are deleted after 180 days. Photos are never stored in the cache or anywhere else on our servers.</li>
+  <li><strong>Anonymous records of how well a lookup worked.</strong> Alongside that cache we keep a short record of each nutrition lookup — the same food description, which match the app proposed, and whether you accepted, corrected or abandoned it — so we can find and fix the cases where the app matches food badly. These records carry no account identifier, cannot be linked to a person, and are deleted after 90 days. They contain no photos.</li>
   <li><strong>Subscription status.</strong> If you subscribe to BonsaiChef Plus or Premium, Apple processes the payment. We receive subscription status (active/expired) from our subscription manager (RevenueCat) tied to your account ID — never your payment details.</li>
   <li><strong>Messages you send us.</strong> If you write to us through the support form on bonsaichef.com, the name, email address, and message you type are forwarded to our support inbox so we can reply. They are not stored on our servers, and we use the address only to answer you.</li>
 </ul>
 
 <h2>Services we rely on</h2>
-<p>Supabase (server infrastructure and database), Anthropic (AI processing of the text and photos you submit), FatSecret (nutrition and recipe lookups — the food names you type or that appear on your receipts), Spoonacular (recipe search), Open Food Facts (barcode lookups), USDA FoodData Central (packaged-food and barcode lookups — the food names and barcodes being looked up), Resend (delivery of sign-in code emails to your address, and delivery of messages you send us through the support form on bonsaichef.com), RevenueCat (subscription management), and Apple (payments, TestFlight, App Store). Each receives only what is needed to provide its function, and none may use your data for advertising. You can revoke consent for all of this at any time by deleting your account in the app, which removes your server-side records.</p>
+<p>Supabase (server infrastructure and database), Anthropic (AI processing of the text and photos you submit), FatSecret (nutrition and recipe lookups — the food names you type or that appear on your receipts), Open Food Facts (barcode lookups), USDA FoodData Central (packaged-food and barcode lookups — the food names and barcodes being looked up), Resend (delivery of sign-in code emails to your address, and delivery of messages you send us through the support form on bonsaichef.com), RevenueCat (subscription management), and Apple (payments, TestFlight, App Store). Each receives only what is needed to provide its function, and none may use your data for advertising. You can revoke consent for all of this at any time by deleting your account in the app, which removes the server-side records held against your account — your account identifier, usage counts and subscription record. The two anonymous stores described above (the lookup cache and the lookup-quality records) are not covered by that deletion, because nothing in them identifies you: there is no way to tell which rows were yours. They age out on their own after 180 and 90 days.</p>
 
 <h2>What we don't do</h2>
 <ul>
